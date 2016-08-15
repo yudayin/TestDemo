@@ -21,7 +21,8 @@ public class Test {
 	       
 	         while((fis.read(buf))!=-1){
 	             sb.append(new String(buf));    
-	             buf=new byte[1024];//ÖØĞÂÉú³É£¬±ÜÃâºÍÉÏ´Î¶ÁÈ¡µÄÊı¾İÖØ¸´
+	             buf=new byte[1024];//é‡æ–°ç”Ÿæˆï¼Œé¿å…å’Œä¸Šæ¬¡è¯»å–çš„æ•°æ®é‡å¤
+	             
 	         }
 		} catch (Exception e) {
 			e.printStackTrace();
