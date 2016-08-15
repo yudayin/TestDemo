@@ -22,7 +22,7 @@ public class Test {
 	         while((fis.read(buf))!=-1){
 	             sb.append(new String(buf));    
 	             buf=new byte[1024];//重新生成，避免和上次读取的数据重复
-	             
+	             天天天天突然想
 	         }
 		} catch (Exception e) {
 			e.printStackTrace();
